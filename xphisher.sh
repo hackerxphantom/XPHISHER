@@ -234,7 +234,7 @@ start_localhost() {
 }
 
 ## Tunnel selection
-tunnel_menu() {
+tunnel_selection() {
       {clear; banner_small; }
       cat <<- EOF
       
