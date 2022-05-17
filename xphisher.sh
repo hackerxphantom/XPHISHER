@@ -266,9 +266,3 @@ main_menu() {
   esac
 
 }
-
-# Main
-kill_pid
-dependenc
-install_cloudflared
-main_menu
