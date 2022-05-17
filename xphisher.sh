@@ -243,8 +243,6 @@ main_menu() {
 
           ${RED}[${WHITE}08${RED}]${ORANGE} Twitter
           
-          ${RED}[${WHITE}99${RED}]${ORANGE} About         ${RED}[${WHITE}00${RED}]${ORANGE} Exit
-          
   EOF		
   
   read -p "${RED}[${WHITE}-${RED}]${GREEN} Select an option : ${BLUE}"  
@@ -255,14 +253,6 @@ main_menu() {
                   mask='http://get-blue-badge-on-twitter-free'
                   tunnel_menu;;
    
-              99)
-		  about;;
-	      0 | 00 )
-		  msg_exit;;
-	      *)
-	          echo -ne "\n${RED}[${WHITE}!${RED}]${RED} Invalid Option, Try Again..."
-		  { sleep 1; main_menu; };;
-	
   esac
 
 }
