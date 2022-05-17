@@ -233,25 +233,6 @@ start_localhost() {
 	capture_data
 }
 
-## Tunnel selection
-tunnel_selection() {
-      {clear; banner_small; }
-  cat <<- EOF
-      
-      ${RED}[${WHITE}03${RED}]${ORANGE} Cloudflared  ${RED}[${CYAN}NEW!${RED}]
-      
-  EOF
-  
-  read -p "${RED}[${WHITE}-${RED}]${GREEN} Select a port forwarding service : ${BLUE}"
-
-  case $REPLY in 
-		1 | 01)
-			start_cloudflared;;
-		*)
-			echo -ne "\n${RED}[${WHITE}!${RED}]${RED} Invalid Option, Try Again..."
-			{ sleep 1; tunnel_menu; };;
-	esac
-}
 
 ## Menu
 main_menu() {
