@@ -236,7 +236,7 @@ start_localhost() {
 ## Tunnel selection
 tunnel_selection() {
       {clear; banner_small; }
-      cat <<- EOF
+  cat <<- EOF
       
       ${RED}[${WHITE}03${RED}]${ORANGE} Cloudflared  ${RED}[${CYAN}NEW!${RED}]
       
@@ -244,7 +244,7 @@ tunnel_selection() {
   
   read -p "${RED}[${WHITE}-${RED}]${GREEN} Select a port forwarding service : ${BLUE}"
 
- case $REPLY in 
+  case $REPLY in 
 		1 | 01)
 			start_cloudflared;;
 		*)
