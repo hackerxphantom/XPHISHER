@@ -331,7 +331,6 @@ main_menu() {
 	{ clear; banner; echo; }
 	cat <<- EOF
 		${RED}[${WHITE}::${RED}]${ORANGE} Select An Attack For Your Victim ${RED}[${WHITE}::${RED}]${ORANGE}
-         
                 ${RED}[${WHITE}08${RED}]${ORANGE} Twitter
 
         EOF
