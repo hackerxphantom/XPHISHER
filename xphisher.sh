@@ -454,7 +454,6 @@ tunnel_menu() {
 	cat <<- EOF
 
 		${RED}[${WHITE}01${RED}]${ORANGE} Localhost    ${RED}[${CYAN}For Devs${RED}]
-		${RED}[${WHITE}02${RED}]${ORANGE} Ngrok.io     ${RED}[${CYAN}Buggy${RED}]
 		${RED}[${WHITE}03${RED}]${ORANGE} Cloudflared  ${RED}[${CYAN}NEW!${RED}]
 
 	EOF
@@ -464,9 +463,8 @@ tunnel_menu() {
 	case $REPLY in 
 		1 | 01)
 			start_localhost;;
+		
 		2 | 02)
-			start_ngrok;;
-		3 | 03)
 			start_cloudflared;;
 		*)
 			echo -ne "\n${RED}[${WHITE}!${RED}]${RED} Invalid Option, Try Again..."
