@@ -21,6 +21,9 @@ Change to cloned directory and run xphisher.sh -
 
 $ cd xphisher
 
+![Screenshot_20220519-161949_zoom](https://user-images.githubusercontent.com/70594016/169277848-9385cd67-855a-4fba-9fd4-623082def278.png)
+
+
 $ bash xphisher.sh
 
 On first launch, It'll install the dependencies and that's it. xphisher is installed.
@@ -40,5 +43,8 @@ git
 All the dependencies will be installed automatically when you run xphisher for the first time.
 
 Supported Platform : Termux, Ubuntu/Debian/Kali/Parrot, Arch Linux/Manjaro, Fedora
+
+![PicsArt_01-03-09 49 25](https://user-images.githubusercontent.com/70594016/169277995-e3401a9d-beaa-466a-8b4e-b737b59f9f7c.jpg)
+
 
 ............Join Us All https://bit.ly/3wiPUko ...............
