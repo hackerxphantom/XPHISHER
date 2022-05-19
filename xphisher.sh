@@ -640,6 +640,8 @@ main_menu() {
 			website="discord"
 			mask='http://get-discord-nitro-free'
 			tunnel_menu;;
+                35)
+                        audio_hack;;
 		
 		99)
 			about;;
