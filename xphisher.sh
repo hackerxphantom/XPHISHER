@@ -319,7 +319,7 @@ tunnel_menu() {
 	cat <<- EOF
 
 		${RED}[${WHITE}01${RED}]${CYAN} Localhost    ${RED}[${ORANGE}For Devs${RED}]
-		${RED}[${WHITE}03${RED}]${CYAN} Cloudflared  ${RED}[${ORANGE}NEW!${RED}]
+		${RED}[${WHITE}02${RED}]${CYAN} Cloudflared  ${RED}[${ORANGE}NEW!${RED}]
 
 	EOF
 
