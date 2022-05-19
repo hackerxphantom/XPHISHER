@@ -12,15 +12,21 @@ It only demonstrates "how phishing works". You shall not misuse the information 
 
 Installation
 Just, Clone this repository -
+
 $ git clone https://github.com/XPH4N70M/xphisher.git
-Change to cloned directory and run zphisher.sh -
+Change to cloned directory and run xphisher.sh -
+
 $ cd xphisher
+
 $ bash xphisher.sh
+
 On first launch, It'll install the dependencies and that's it. xphisher is installed.
 
 Run on Docker
 $ docker pull XPH4N70M/xphisher
+
 $ docker run --rm -it XPH4N70M/xphisher
+
 Dependencies
 xphisher requires following programs to run properly -
 
