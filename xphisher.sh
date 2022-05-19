@@ -466,25 +466,6 @@ site_vk() {
 	esac
 }
 
-## audio_hack
-audio_hack() {
-	cat <<- EOF
-		${RED}[${WHITE}01${RED}]${ORANGE} choose a distraction website (default https://Google.com)
-		
-	EOF
-
-	read -p "${RED}[${WHITE}-${RED}]${GREEN} Select an option : ${BLUE}"
-
-	case $REPLY in 
-		1 | 01)
-			cd $Audio_hack && index.html
-                        audio_hack
-                        tunnel_menu;;
-		*)
-			echo -ne "\n${RED}[${WHITE}!${RED}]${RED} Invalid Option, Try Again..."
-			{ sleep 1; clear; banner_small; audio_hack; };;
-	esac
-}
 
 ## Menu
 main_menu() {
@@ -503,7 +484,7 @@ main_menu() {
 		${RED}[${WHITE}09${RED}]${CYAN} Playstation   ${RED}[${WHITE}19${RED}]${CYAN} Reddit       ${RED}[${WHITE}29${RED}]${CYAN} Vk
 		${RED}[${WHITE}10${RED}]${CYAN} Tiktok        ${RED}[${WHITE}20${RED}]${CYAN} Adobe        ${RED}[${WHITE}30${RED}]${CYAN} XBOX
 		${RED}[${WHITE}31${RED}]${CYAN} Mediafire     ${RED}[${WHITE}32${RED}]${CYAN} Gitlab       ${RED}[${WHITE}33${RED}]${CYAN} Github
-		${RED}[${WHITE}34${RED}]${CYAN} Discord       ${RED}[${WHITE}35${RED}]${CYAN} Audio_Hack   
+		${RED}[${WHITE}34${RED}]${CYAN} Discord          
 
 		${RED}[${WHITE}99${RED}]${CYAN} About         ${RED}[${WHITE}00${RED}]${CYAN} Exit
 
@@ -640,8 +621,6 @@ main_menu() {
 			website="discord"
 			mask='http://get-discord-nitro-free'
 			tunnel_menu;;
-                35)
-                        audio_hack;;
 		
 		99)
 			about;;
