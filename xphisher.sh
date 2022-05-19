@@ -153,16 +153,15 @@ kill_pid() {
 ## Banner
 banner() {
 	cat <<- EOF
-		${ORANGE}
-		${ORANGE} ______      _     _     _               
-		${ORANGE}|___  /     | |   (_)   | |              
-		${ORANGE}   / / _ __ | |__  _ ___| |__   ___ _ __ 
-		${ORANGE}  / / | '_ \| '_ \| / __| '_ \ / _ \ '__|
-		${ORANGE} / /__| |_) | | | | \__ \ | | |  __/ |   
-		${ORANGE}/_____| .__/|_| |_|_|___/_| |_|\___|_|   
-		${ORANGE}      | |                                
-		${ORANGE}      |_|                ${RED}Version : 2.2
-
+		${BLUE}
+		${BLUE}   _  __       __    _      __                 
+                ${BLUE}  | |/ /____  / /_  (_)____/ /_  ___  _____  
+                ${BLUE}  |   // __ \/ __ \/ / ___/ __ \/ _ \/ ___/    
+                ${BLUE}  /   |/ /_/ / / / / (__  ) / / /  __/ /        
+                ${BLUE} /_/|_/ .___/_/ /_/_/____/_/ /_/\___/_/         
+                ${BLUE}     /_/                                                 
+		${RED}Version : 2.2 
+		
 		${GREEN}[${WHITE}-${GREEN}]${CYAN} Tool Created by htr-tech (tahmid.rayat)${WHITE}
 	EOF
 }
