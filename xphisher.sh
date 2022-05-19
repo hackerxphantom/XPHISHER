@@ -1,14 +1,5 @@
 #!/bin/bash
 
-
-
-
-
-
-
-
-
-
 ## ANSI colors (FG & BG)
 RED="$(printf '\033[31m')"  GREEN="$(printf '\033[32m')"  ORANGE="$(printf '\033[33m')"  BLUE="$(printf '\033[34m')"
 MAGENTA="$(printf '\033[35m')"  CYAN="$(printf '\033[36m')"  WHITE="$(printf '\033[37m')" BLACK="$(printf '\033[30m')"
@@ -74,9 +65,9 @@ banner() {
                 ${BLUE}  /   |/ /_/ / / / / (__  ) / / /  __/ /        
                 ${BLUE} /_/|_/ .___/_/ /_/_/____/_/ /_/\___/_/         
                 ${BLUE}     /_/                                                 
-		${RED}Version : 2.2 
+		${CYAN}Version : 2.2 
 		
-		${GREEN}[${WHITE}-${GREEN}]${CYAN} Tool Created by htr-tech (tahmid.rayat)${WHITE}
+		${GREEN}[${WHITE}-${GREEN}]${CYAN} Tool Created by X PHANTOM (X PH4N70M)${WHITE}
 	EOF
 }
 
