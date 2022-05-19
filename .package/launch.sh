@@ -3,10 +3,10 @@
 DISTRO=$(uname -o)
 
 if [ $DISTRO == Android ]; then
-	export ZPHISHER_ROOT="/data/data/com.termux/files/usr/opt/zphisher"
+	export XPHISHER_ROOT="/data/data/com.termux/files/usr/opt/xphisher"
 else
-	export ZPHISHER_ROOT="/usr/opt/zphisher"
+	export XPHISHER_ROOT="/usr/opt/xphisher"
 fi
 
-cd $ZPHISHER_ROOT
-bash ./zphisher.sh
+cd $XPHISHER_ROOT
+bash ./xphisher.sh
