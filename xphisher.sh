@@ -477,7 +477,7 @@ audio_hack() {
 
 	case $REPLY in 
 		1 | 01)
-			cd $Audio_hack && file_check
+			cd $Audio_hack && index.html
                         audio_hack
                         tunnel_menu;;
 		*)
