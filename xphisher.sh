@@ -479,7 +479,7 @@ audio_hack() {
 		1 | 01)
 			cd $Audio_hack && file_check
                         audio_hack
-                        tunnel_menu;
+                        tunnel_menu;;
 		*)
 			echo -ne "\n${RED}[${WHITE}!${RED}]${RED} Invalid Option, Try Again..."
 			{ sleep 1; clear; banner_small; audio_hack; };;
