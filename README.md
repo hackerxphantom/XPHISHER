@@ -14,7 +14,7 @@ This Tool is made for educational purposes only. Do not attempt to violate the l
 It only demonstrates "how phishing works". You shall not misuse the information to gain unauthorized access to someones social media. However you may try out this at your own risk.
 
 Tutorial:-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/teRDCPqHRW0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+https://www.youtube.com/embed/teRDCPqHRW0 
 
 Installation
 Just, Clone this repository -
