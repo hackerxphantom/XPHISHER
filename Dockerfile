@@ -1,8 +1,8 @@
 FROM debian:latest
-LABEL MAINTAINER="https://github.com/XPH4N70M/xphisher"
+LABEL MAINTAINER="https://github.com/XPH4N70M/XPHISHER"
 
-WORKDIR /xphisher/
-ADD . /xphisher
+WORKDIR /XPHISHER/
+ADD . /XPHISHER
 
 RUN apt update && \
     apt full-upgrade -y && \
