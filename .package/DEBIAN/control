@@ -1,8 +1,8 @@
-Package: xphisher
+Package: XPHISHER 
 Version: 2.2
-Installed-Size: 
+Installed-Size: 1065
 Architecture: all
 Maintainer: @XPH4N70M 
 Depends: php, wget, git, curl, resolv-conf, proot
-Homepage: https://github.com/XPH4N70M/xphisher
+Homepage: https://github.com/XPH4N70M/XPHISHER 
 Description: A 32+ Template Tool With Cloudflared Link XPhisher This Tool is made for educational purpose only !
