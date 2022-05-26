@@ -47,7 +47,7 @@ All the dependencies will be installed automatically when you run xphisher for t
 
 Supported Platform : Termux, Ubuntu/Debian/Kali/Parrot, Arch Linux/Manjaro, Fedora
 
-![PicsArt_01-03-09 49 25](https://user-images.githubusercontent.com/70594016/169277995-e3401a9d-beaa-466a-8b4e-b737b59f9f7c.jpg)
+
 
 
 ............Join Us All https://bit.ly/3wiPUko ...............
