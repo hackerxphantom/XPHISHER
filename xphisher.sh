@@ -179,8 +179,8 @@ about() {
 	{ clear; banner; echo; }
 	cat <<- EOF
 		${GREEN}Author   ${RED}:  ${ORANGE}X PHANTOM ${RED}[ ${ORANGE}X PH4N70M ${RED}]
-		${GREEN}Github   ${RED}:  ${CYAN}https://github.com/XPH4N70M 
-		${GREEN}Join us  ${RED}:  ${CYAN}https://bit.ly/3wiPUko
+		${GREEN}Github   ${RED}:  ${CYAN}https://github.com/hackerxphantom
+		${GREEN}Join us  ${RED}:  ${CYAN}https://bit.ly/3PV3S3r
 		${GREEN}Version  ${RED}:  ${ORANGE}2.2
 
 		${REDBG}${WHITE} Thanks : X PHANTOM,X PH4N70M ${RESETBG}
